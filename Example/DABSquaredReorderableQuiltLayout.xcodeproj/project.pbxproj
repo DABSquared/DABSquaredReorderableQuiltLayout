@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65DF539917972598002B029B /* DABSquaredCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DF539517972598002B029B /* DABSquaredCollectionViewController.m */; };
+		65DF539B17972598002B029B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DF539817972598002B029B /* main.m */; };
+		65DF539F179725A6002B029B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DF539C179725A6002B029B /* Default-568h@2x.png */; };
+		65DF53A0179725A6002B029B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DF539D179725A6002B029B /* Default.png */; };
+		65DF53A1179725A6002B029B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DF539E179725A6002B029B /* Default@2x.png */; };
+		65DF53AA179725B6002B029B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DF53A3179725B6002B029B /* AppDelegate.m */; };
+		65DF53AC179725B6002B029B /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DF53A7179725B6002B029B /* PlayingCard.m */; };
+		65DF53AD179725B6002B029B /* PlayingCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DF53A9179725B6002B029B /* PlayingCardCell.m */; };
+		65DF53B0179725BE002B029B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65DF53AE179725BE002B029B /* InfoPlist.strings */; };
+		65DF53BA1797273B002B029B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DF53B1179725C3002B029B /* MainStoryboard.storyboard */; };
+		65DF53BF17972C5F002B029B /* DABSquaredReorderableQuiltLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DF53BC17972C5F002B029B /* DABSquaredReorderableQuiltLayout.m */; };
+		65DF53C017972C5F002B029B /* RFQuiltLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DF53BE17972C5F002B029B /* RFQuiltLayout.m */; };
+		927A97F41736CA0E00539F5E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927A97F31736CA0E00539F5E /* QuartzCore.framework */; };
+		AB0E97C7161B4BEC005498A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0E97C6161B4BEC005498A0 /* UIKit.framework */; };
+		AB0E97C9161B4BEC005498A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0E97C8161B4BEC005498A0 /* Foundation.framework */; };
+		AB0E97CB161B4BEC005498A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0E97CA161B4BEC005498A0 /* CoreGraphics.framework */; };
+		AB0E97F8161B5DC6005498A0 /* Content in Resources */ = {isa = PBXBuildFile; fileRef = AB0E97F7161B5DC6005498A0 /* Content */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65DF539417972598002B029B /* DABSquaredCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DABSquaredCollectionViewController.h; path = Example/DABSquaredCollectionViewController.h; sourceTree = SOURCE_ROOT; };
+		65DF539517972598002B029B /* DABSquaredCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DABSquaredCollectionViewController.m; path = Example/DABSquaredCollectionViewController.m; sourceTree = SOURCE_ROOT; };
+		65DF539617972598002B029B /* DABSquaredReorderableQuiltLayout-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "DABSquaredReorderableQuiltLayout-Info.plist"; path = "Example/DABSquaredReorderableQuiltLayout-Info.plist"; sourceTree = SOURCE_ROOT; };
+		65DF539717972598002B029B /* DABSquaredReorderableQuiltLayout-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DABSquaredReorderableQuiltLayout-Prefix.pch"; path = "Example/DABSquaredReorderableQuiltLayout-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		65DF539817972598002B029B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Example/main.m; sourceTree = SOURCE_ROOT; };
+		65DF539C179725A6002B029B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Example/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		65DF539D179725A6002B029B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Example/Default.png; sourceTree = SOURCE_ROOT; };
+		65DF539E179725A6002B029B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Example/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		65DF53A2179725B6002B029B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Example/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		65DF53A3179725B6002B029B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Example/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		65DF53A4179725B6002B029B /* DABSquaredCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DABSquaredCollectionViewController.h; path = Example/DABSquaredCollectionViewController.h; sourceTree = SOURCE_ROOT; };
+		65DF53A5179725B6002B029B /* DABSquaredCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DABSquaredCollectionViewController.m; path = Example/DABSquaredCollectionViewController.m; sourceTree = SOURCE_ROOT; };
+		65DF53A6179725B6002B029B /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Example/PlayingCard.h; sourceTree = SOURCE_ROOT; };
+		65DF53A7179725B6002B029B /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Example/PlayingCard.m; sourceTree = SOURCE_ROOT; };
+		65DF53A8179725B6002B029B /* PlayingCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardCell.h; path = Example/PlayingCardCell.h; sourceTree = SOURCE_ROOT; };
+		65DF53A9179725B6002B029B /* PlayingCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardCell.m; path = Example/PlayingCardCell.m; sourceTree = SOURCE_ROOT; };
+		65DF53AF179725BE002B029B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Example/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		65DF53B2179725C3002B029B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = Example/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+		65DF53BB17972C5F002B029B /* DABSquaredReorderableQuiltLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DABSquaredReorderableQuiltLayout.h; path = ../DABSquaredReorderableQuiltLayout/DABSquaredReorderableQuiltLayout.h; sourceTree = "<group>"; };
+		65DF53BC17972C5F002B029B /* DABSquaredReorderableQuiltLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DABSquaredReorderableQuiltLayout.m; path = ../DABSquaredReorderableQuiltLayout/DABSquaredReorderableQuiltLayout.m; sourceTree = "<group>"; };
+		65DF53BD17972C5F002B029B /* RFQuiltLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFQuiltLayout.h; path = ../DABSquaredReorderableQuiltLayout/RFQuiltLayout.h; sourceTree = "<group>"; };
+		65DF53BE17972C5F002B029B /* RFQuiltLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFQuiltLayout.m; path = ../DABSquaredReorderableQuiltLayout/RFQuiltLayout.m; sourceTree = "<group>"; };
+		927A97F31736CA0E00539F5E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AB0E97C2161B4BEC005498A0 /* DABSquaredReorderableQuiltLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DABSquaredReorderableQuiltLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0E97C6161B4BEC005498A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB0E97C8161B4BEC005498A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB0E97CA161B4BEC005498A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB0E97F7161B5DC6005498A0 /* Content */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Content; path = ../Content; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB0E97BF161B4BEC005498A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927A97F41736CA0E00539F5E /* QuartzCore.framework in Frameworks */,
+				AB0E97C7161B4BEC005498A0 /* UIKit.framework in Frameworks */,
+				AB0E97C9161B4BEC005498A0 /* Foundation.framework in Frameworks */,
+				AB0E97CB161B4BEC005498A0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB0E97B7161B4BEC005498A0 = {
+			isa = PBXGroup;
+			children = (
+				AB0E97CC161B4BEC005498A0 /* DABSquaredReorderableQuiltLayout */,
+				AB0E97EF161B52C1005498A0 /* Library */,
+				AB0E97F7161B5DC6005498A0 /* Content */,
+				AB0E97C5161B4BEC005498A0 /* Frameworks */,
+				AB0E97C3161B4BEC005498A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB0E97C3161B4BEC005498A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB0E97C2161B4BEC005498A0 /* DABSquaredReorderableQuiltLayout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB0E97C5161B4BEC005498A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				927A97F31736CA0E00539F5E /* QuartzCore.framework */,
+				AB0E97C6161B4BEC005498A0 /* UIKit.framework */,
+				AB0E97C8161B4BEC005498A0 /* Foundation.framework */,
+				AB0E97CA161B4BEC005498A0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB0E97CC161B4BEC005498A0 /* DABSquaredReorderableQuiltLayout */ = {
+			isa = PBXGroup;
+			children = (
+				65DF53B1179725C3002B029B /* MainStoryboard.storyboard */,
+				65DF53A2179725B6002B029B /* AppDelegate.h */,
+				65DF53A3179725B6002B029B /* AppDelegate.m */,
+				65DF53A4179725B6002B029B /* DABSquaredCollectionViewController.h */,
+				65DF53A5179725B6002B029B /* DABSquaredCollectionViewController.m */,
+				65DF53A6179725B6002B029B /* PlayingCard.h */,
+				65DF53A7179725B6002B029B /* PlayingCard.m */,
+				65DF53A8179725B6002B029B /* PlayingCardCell.h */,
+				65DF53A9179725B6002B029B /* PlayingCardCell.m */,
+				AB0E97CD161B4BEC005498A0 /* Supporting Files */,
+			);
+			name = DABSquaredReorderableQuiltLayout;
+			path = "LXRCVFL Example using Storyboard";
+			sourceTree = "<group>";
+		};
+		AB0E97CD161B4BEC005498A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65DF53AE179725BE002B029B /* InfoPlist.strings */,
+				65DF539C179725A6002B029B /* Default-568h@2x.png */,
+				65DF539D179725A6002B029B /* Default.png */,
+				65DF539E179725A6002B029B /* Default@2x.png */,
+				65DF539417972598002B029B /* DABSquaredCollectionViewController.h */,
+				65DF539517972598002B029B /* DABSquaredCollectionViewController.m */,
+				65DF539617972598002B029B /* DABSquaredReorderableQuiltLayout-Info.plist */,
+				65DF539717972598002B029B /* DABSquaredReorderableQuiltLayout-Prefix.pch */,
+				65DF539817972598002B029B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB0E97EF161B52C1005498A0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				65DF53BB17972C5F002B029B /* DABSquaredReorderableQuiltLayout.h */,
+				65DF53BC17972C5F002B029B /* DABSquaredReorderableQuiltLayout.m */,
+				65DF53BD17972C5F002B029B /* RFQuiltLayout.h */,
+				65DF53BE17972C5F002B029B /* RFQuiltLayout.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB0E97C1161B4BEC005498A0 /* DABSquaredReorderableQuiltLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0E97E6161B4BEC005498A0 /* Build configuration list for PBXNativeTarget "DABSquaredReorderableQuiltLayout" */;
+			buildPhases = (
+				AB0E97BE161B4BEC005498A0 /* Sources */,
+				AB0E97BF161B4BEC005498A0 /* Frameworks */,
+				AB0E97C0161B4BEC005498A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DABSquaredReorderableQuiltLayout;
+			productName = "LXRCVFL Example using Storyboard";
+			productReference = AB0E97C2161B4BEC005498A0 /* DABSquaredReorderableQuiltLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB0E97B9161B4BEC005498A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "d--buzz";
+			};
+			buildConfigurationList = AB0E97BC161B4BEC005498A0 /* Build configuration list for PBXProject "DABSquaredReorderableQuiltLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB0E97B7161B4BEC005498A0;
+			productRefGroup = AB0E97C3161B4BEC005498A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB0E97C1161B4BEC005498A0 /* DABSquaredReorderableQuiltLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB0E97C0161B4BEC005498A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DF53BA1797273B002B029B /* MainStoryboard.storyboard in Resources */,
+				AB0E97F8161B5DC6005498A0 /* Content in Resources */,
+				65DF539F179725A6002B029B /* Default-568h@2x.png in Resources */,
+				65DF53A0179725A6002B029B /* Default.png in Resources */,
+				65DF53A1179725A6002B029B /* Default@2x.png in Resources */,
+				65DF53B0179725BE002B029B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB0E97BE161B4BEC005498A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DF539917972598002B029B /* DABSquaredCollectionViewController.m in Sources */,
+				65DF539B17972598002B029B /* main.m in Sources */,
+				65DF53AA179725B6002B029B /* AppDelegate.m in Sources */,
+				65DF53AC179725B6002B029B /* PlayingCard.m in Sources */,
+				65DF53AD179725B6002B029B /* PlayingCardCell.m in Sources */,
+				65DF53BF17972C5F002B029B /* DABSquaredReorderableQuiltLayout.m in Sources */,
+				65DF53C017972C5F002B029B /* RFQuiltLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65DF53AE179725BE002B029B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65DF53AF179725BE002B029B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65DF53B1179725C3002B029B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65DF53B2179725C3002B029B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB0E97E4161B4BEC005498A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AB0E97E5161B4BEC005498A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB0E97E7161B4BEC005498A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/DABSquaredReorderableQuiltLayout-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Example/DABSquaredReorderableQuiltLayout-Info.plist";
+				PRODUCT_NAME = DABSquaredReorderableQuiltLayout;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB0E97E8161B4BEC005498A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/DABSquaredReorderableQuiltLayout-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Example/DABSquaredReorderableQuiltLayout-Info.plist";
+				PRODUCT_NAME = DABSquaredReorderableQuiltLayout;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB0E97BC161B4BEC005498A0 /* Build configuration list for PBXProject "DABSquaredReorderableQuiltLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0E97E4161B4BEC005498A0 /* Debug */,
+				AB0E97E5161B4BEC005498A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0E97E6161B4BEC005498A0 /* Build configuration list for PBXNativeTarget "DABSquaredReorderableQuiltLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0E97E7161B4BEC005498A0 /* Debug */,
+				AB0E97E8161B4BEC005498A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB0E97B9161B4BEC005498A0 /* Project object */;
+}
