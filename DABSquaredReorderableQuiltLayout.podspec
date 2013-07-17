@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = 'DABSquaredReorderableCollectionViewFlowLayout'
+  s.name = 'DABSquaredReorderableQuiltLayout'
   s.version = '1.0'
   s.summary = 'Extends UICollectionViewFlowLayout And Reorderable Quilt Layout'
   s.homepage = 'https://github.com/DABSquared/DABSquaredReorderableQuiltLayout'
@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
     :tag => '1.0'
   }
   s.platform = :ios, '6.0'
-  s.source_files = 'DABSquaredReorderableCollectionViewFlowLayout/'
-  s.public_header_files = 'DABSquaredReorderableCollectionViewFlowLayout/'
+  s.source_files = 'DABSquaredReorderableQuiltLayout/'
+  s.public_header_files = 'DABSquaredReorderableQuiltLayout/'
   s.frameworks = 'UIKit', 'CoreGraphics'
   s.requires_arc = true
 end
